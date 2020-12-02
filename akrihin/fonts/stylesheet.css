@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'CoreSansM55Medium';
+    src: url(CoreSansM55Medium.woff2) format('woff2'),
+        url(CoreSansM55Medium.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CoreSansM45Regular';
+    src: url(CoreSansM45Regular.woff2) format('woff2'),
+        url(CoreSansM45Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CoreSansM37CnLight';
+    src: url(CoreSansM37CnLight.woff2) format('woff2'),
+        url(CoreSansM37CnLight.woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CoreSansM65Bold';
+    src: url(CoreSansM65Bold.woff2) format('woff2'),
+        url(CoreSansM65Bold.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CoreSansM57CnMedium';
+    src: url(CoreSansM57CnMedium.woff2) format('woff2'),
+        url(CoreSansM57CnMedium.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CoreSansM65Bold';
+    src: url(CoreSansM65Bold-Italic.woff2) format('woff2'),
+        url(CoreSansM65Bold-Italic.woff) format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}

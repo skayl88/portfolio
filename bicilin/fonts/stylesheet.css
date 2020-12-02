@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(BebasNeueLight.woff2) format('woff2'),
+        url(BebasNeueLight.woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeliosC';
+    src: url(HeliosC.woff2) format('woff2'),
+        url(HeliosC.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeliosCondC';
+    src: url(HeliosCondC-Bold.woff2) format('woff2'),
+        url(HeliosCondC-Bold.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(BebasNeue-Thin.woff2) format('woff2'),
+        url(BebasNeue-Thin.woff) format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(BebasNeueRegular.woff2) format('woff2'),
+        url(BebasNeueRegular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeliosLightC';
+    src: url(HeliosLightC.woff2) format('woff2'),
+        url(HeliosLightC.woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeliosCondC';
+    src: url(HeliosCondC.woff2) format('woff2'),
+        url(HeliosCondC.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(BebasNeueBold.woff2) format('woff2'),
+        url(BebasNeueBold.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeliosC';
+    src: url(HeliosC.woff2) format('woff2'),
+        url(HeliosC.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeliosCondLightC';
+    src: url(HeliosCondLightC.woff2) format('woff2'),
+        url(HeliosCondLightC.woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeliosCondC';
+    src: url(HeliosCondC.woff2) format('woff2'),
+        url(HeliosCondC.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeliosC';
+    src: url(HeliosC-Bold.woff2) format('woff2'),
+        url(HeliosC-Bold.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url(BebasNeueBook.woff2) format('woff2'),
+        url(BebasNeueBook.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeliosExtLightC';
+    src: url(HeliosExtLightC.woff2) format('woff2'),
+        url(HeliosExtLightC.woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeliosCond';
+    src: url(HeliosCond.woff2) format('woff2'),
+        url(HeliosCond.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
