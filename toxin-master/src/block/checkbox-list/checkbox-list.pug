@@ -1,0 +1,8 @@
+mixin checkbox-list(title, ...contents)
+    .checkbox-list
+        .checkbox-list__title
+            +title(title)
+            i.material-icons.checkbox-list__icon expand_more
+        each content in contents
+            .checkbox-list__content
+                +input-chbox(content)

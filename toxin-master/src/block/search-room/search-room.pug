@@ -1,0 +1,55 @@
+mixin search-room
+    .search-room
+        .search-room__header
+            +header(menu_page, buttons_page)
+        .search-room__main
+            .search-room__icon-wrap
+                i.search__room-icon.material-icons tune
+            section.search-room__filter
+                +date-filter('даты пребывания в отеле')
+                .search-room__dropdown
+                    +dropdown('гости', 'dropdown__body--small')(class="dropdown--small")
+                +range-slider('диапазон цены', 'Стоимость за сутки пребывания в номере')
+                .search-room__chbox-btn
+                    +checkbox-button('checkbox buttons','Можно курить',
+                        'Можно с питомцами',
+                        'Можно пригласить гостей (до 10 человек)')
+                +rich-chbox('доступность', {main: 'Широкий коридор',
+                        discription: 'Ширина коридоров в номере не менее 91 см.'},
+                        {main: 'Помощник для инвалидов',
+                        discription: 'На 1 этаже вас встретит специалист  и проводит до номера.'})
+                .search-room__rooms-filter
+                    +rooms-filter('удобства номера')
+                +checkbox-list('дополнительные удобства', 'Завтрак',
+                    "Письменный стол", "Кроватка", "Телевизор", "Шампунь")
+            section.search-room__content
+                .search-room__title Номера, которые мы для вас подобрали
+                .search-room__cards
+                    .search-room__card-room
+                        +card-room(rooms_data1)
+                    .search-room__card-room
+                        +card-room(rooms_data2)
+                    .search-room__card-room
+                        +card-room(rooms_data3)
+                    .search-room__card-room
+                        +card-room(rooms_data4)
+                    .search-room__card-room
+                        +card-room(rooms_data5)
+                    .search-room__card-room
+                        +card-room(rooms_data6)
+                    .search-room__card-room
+                        +card-room(rooms_data7)
+                    .search-room__card-room
+                        +card-room(rooms_data8)
+                    .search-room__card-room
+                        +card-room(rooms_data9)
+                    .search-room__card-room
+                        +card-room(rooms_data10)
+                    .search-room__card-room
+                        +card-room(rooms_data11)
+                    .search-room__card-room
+                        +card-room(rooms_data12)
+                .search-room__pagination      
+                    +pagination
+        .search-room__footer        
+            +footer(footer_items_page)

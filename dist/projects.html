@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <title>SDI PROJECT</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favIcons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favIcons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="images/favIcons/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favIcons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favIcons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/favIcons/safari-pinned-tab.svg"
+      color="#000000"
+    />
+    <link rel="shortcut icon" href="images/favIcons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta
+      name="msapplication-TileImage"
+      content="images/favIcons/mstile-144x144.png"
+    />
+    <meta
+      name="msapplication-config"
+      content="images/favIcons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="page__body animate__animated animate__fadeIn">
+    <div id="container" class="wrapper">
+      <ul
+        id="scene"
+        class="scene unselectable"
+        data-friction-x="0.5"
+        data-friction-y="0.5"
+        data-scalar-x="25"
+        data-scalar-y="25"
+      >
+        <li class="layer" data-depth="0.10"><div class="background"></div></li>
+        <li class="layer" data-depth="0.05">
+          <span class="page__title">Проекты</span>
+        </li>
+      </ul>
+    </div>
+    <header class="header">
+      <a class="header__logo" href="/"
+        ><svg
+          class="header__logo--sdiproject"
+          width="300"
+          height="31"
+          viewBox="0 0 300 31"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M37.3697 0.0350647H31.4104V4.96862H32.7171V11.8756H31.9071V30.6231H35.8799V29.6364H43.8344C52.6379 29.6364 58.2247 24.2543 58.2247 15.2842C58.2247 9.89874 56.2109 5.8066 52.6718 3.39605H55.8373V2.40934H50.9425C48.8948 1.44193 46.4659 0.932063 43.7215 0.932063H37.3697V0.0350647ZM15.1578 0.539622C21.9492 0.539622 26.2688 4.05122 26.5434 9.40881H28.4308V10.8889H18.002V9.40881H18.9824C18.6653 7.84434 17.4645 6.93081 15.1578 6.93081C12.7312 6.93081 11.6731 7.85585 11.659 9.11728C11.5885 10.4908 12.8159 11.2897 15.5528 11.8644L17.923 12.3689C24.2999 13.7285 26.924 16.7979 26.9522 21.1708C26.924 26.8332 22.5364 29.9727 15.2142 29.9727C9.01341 29.9727 4.59028 27.7889 3.2035 22.9992H1.61398V20.4168H0V19.4301H10.1494V19.545H10.1917C10.3187 22.18 12.0963 23.5815 15.1014 23.5815L15.1465 23.5814V24.2711H19.2435V17.9192H15.1465V18.4942C14.9696 18.4516 14.7853 18.4095 14.5935 18.3677L11.7154 17.751C6.59415 16.6578 3.46213 14.163 3.47625 9.67791C3.43392 4.21175 8.28713 0.539622 15.1578 0.539622ZM43.4571 23.0237V23.0209H43.5522C47.8411 23.0209 50.3241 21.283 50.3241 15.2842C50.3241 9.28547 47.8411 7.54751 43.3265 7.54751H40.5613V18.9367H42.5221V19.9234H40.5613V21.0503H38.2233V23.0237H43.4571ZM62.2312 3.39605H64.635V13.3557H65.6764V25.6895H64.635V29.6364H72.4792V14.3424H72.1323V2.00848H72.4792V0.932063H69.6803V0.929271H62.2312V3.39605ZM76.5397 1.02177H73.3117V29.6364H76.5397V1.02177ZM79.0848 6.44868H77.595V29.6364H79.0848V6.44868ZM200.383 20.655V6.49351H196.342H188.272V5.5068H196.342V2.54668H200.383V0.976891H208.114V20.655C208.086 26.2614 203.571 30.0736 197.166 30.0736C191.919 30.0736 187.552 27.6259 187.103 21.7875H184.481V20.3075H188.272V19.3362H195.411V20.3229H194.91V20.7393C195.002 22.8934 195.96 24.0188 197.674 24.0188C199.424 24.0188 200.355 22.8695 200.383 20.655ZM94.0411 5.5068H95.9033V0.976891H108.375C114.794 0.976891 119.097 5.01344 119.097 11.1243C119.097 12.2996 118.938 13.3907 118.634 14.3872H120.361V15.8673H118.043C116.458 19.0183 113.186 20.9286 108.898 21.14H102.825V23.1134H103.747V26.2586H104.47V29.0953H103.747V29.6812H95.9033V12.9071H94.0411V5.5068ZM123.341 24.7477H124.756V14.3872H125.824V6.98687H124.756H121.354V5.5068H124.756V0.976891H137.228C143.647 0.976891 147.95 4.621 147.95 10.7319C147.95 14.7123 146.116 17.5015 143.04 18.9732L144.591 21.8029H147.24V22.7897H144.205L145.937 26.7211H147.287L148.909 29.6812H140.388L135.309 20.2065H132.6V29.6812H124.756V28.6945H123.341V24.7477ZM172.505 12.9071H173.816C173.234 9.29997 171.246 7.36809 168.014 7.36809C165.824 7.36809 164.206 8.2543 163.208 9.947H160.587V11.9204H162.416C162.161 12.906 162.032 14.0445 162.032 15.329C162.032 20.2202 163.909 22.9939 167.424 23.2676H168.603C171.734 23.0237 173.566 20.7957 173.929 16.854H172.505V12.9071ZM168.014 30.0736C172.682 30.0736 176.77 28.2471 179.316 24.7477H182.934V23.2676H180.245C181.212 21.4691 181.831 19.3264 182.011 16.854H183.43V12.9071H181.925C180.963 4.87643 175.169 0.584456 168.014 0.584456C160.237 0.584456 154.156 5.58149 153.966 14.8806H150.654V16.3606H153.986C154.226 21.317 156.199 25.0144 159.221 27.3131V30.0512H167.123C167.417 30.0662 167.714 30.0736 168.014 30.0736ZM103.747 15.1048V7.1999H106.513C109.264 7.1999 110.914 8.65754 110.914 11.1243C110.914 13.5771 109.264 15.1048 106.513 15.1048H103.747ZM132.6 7.1999V14.1517H135.366C138.117 14.1517 139.767 13.1846 139.767 10.7319C139.767 8.2651 138.117 7.1999 135.366 7.1999H132.6ZM214.613 29.6812H225.642V28.2011H232.098V29.6812H235.38V24.3776H240.913V23.3909H226.139V23.4021H222.457V18.4686H234.364V12.1895H229.118V13.4005H221.173V10.9337H222.457V7.25597H235.436V0.976891H214.613V5.5068H211.737V6.98687H214.613V14.2639H211.675V18.4574H214.613V29.6812ZM255.934 0.584456C259.772 0.584456 263.045 1.7065 265.374 3.8109H267.885V7.18752C268.524 8.52151 268.935 10.0436 269.083 11.741H266.054V12.4292H258.915V11.4425H261.093C260.765 9.00016 259.062 7.36809 256.159 7.36809C254.45 7.36809 253.079 7.92457 252.073 8.96029H249.479H248.983V10.9337H250.813C250.319 12.1339 250.065 13.612 250.065 15.329C250.065 20.599 252.28 23.29 256.103 23.29C258.981 23.29 260.731 21.7623 261.126 19.3095L263.384 19.3254V18.334H271.33V21.7875H268.581C267.185 25.9826 263.024 30.0736 255.934 30.0736C247.977 30.0736 241.995 24.8738 241.995 15.329C241.995 12.9234 242.382 10.7966 243.086 8.96029H239.051V7.48023H243.752C246.119 2.95893 250.65 0.584456 255.934 0.584456ZM274.632 7.25597H283.323V26.7211H277.801V29.6812H283.323H284.94H291.054V23.7609H289.704V11.4271H291.054V7.25597H299.745V0.976891H285.732V2.05332H279.276V0.976891H274.632V7.25597Z"
+            fill="url(#paint3_linear)"
+          />
+          <defs>
+            <linearGradient
+              id="paint3_linear"
+              x1="7.48054"
+              y1="14.9961"
+              x2="309.773"
+              y2="43.158"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop class="stop-1" offset="0%" stop-color="#7CED00" />
+              <stop class="stop-2" offset="100%" stop-color="#00EDDF" />
+            </linearGradient>
+          </defs></svg
+      ></a>
+      <div class="header__search search">
+        <input required type="text" class="header__search--input" />
+        <button type="button" class="header__search--button"></button>
+      </div>
+      <nav class="header__menu menu">
+        <button
+          class="menu__button menu__button menu__button--animate"
+          type="button"
+          aria-expanded="false"
+          aria-controls="menu__list"
+        >
+          <div class="menu__button-box">
+            <div class="menu__button-inner"></div>
+          </div>
+        </button>
+        <ul class="menu__list" id="menu__list">
+          <li class="menu__item">
+            <a class="menu__link menu__link--arr" href="catalog.html"
+              ><span class="title">Каталог</span></a
+            >
+          </li>
+          <li class="menu__item menu__item--active">
+            <a class="menu__link menu__link--arr" href="projects.html"
+              ><span class="title">Проекты</span></a
+            >
+          </li>
+          <li class="menu__item menu__item--separator"></li>
+          <li class="menu__item">
+            <a
+              class="menu__link menu__link--icon menu__link--mail mail email"
+              href="mailto:mail@sdiproject.ru"
+              ><span class="title">mail@sdiproject.ru</span></a
+            >
+          </li>
+          <li class="menu__item">
+            <a
+              class="menu__link menu__link--icon menu__link--phone phone tel"
+              href="tel:79854566512"
+              ><span class="title">+7 985 456-65-12</span></a
+            >
+          </li>
+          <li class="menu__item">
+            <a
+              class="menu__link menu__link--icon menu__link--fb facebook"
+              href=""
+              ><span class="title">SDI Project</span></a
+            >
+          </li>
+          <li class="menu__link menu__link--icons">
+            <svg
+              class="S"
+              width="123"
+              height="188"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M169.613 56.65C167.858 22.43 140.255 0 96.859 0 52.955 0 21.943 23.455 22.213 58.37c-.09 28.647 19.924 44.582 52.649 51.565l18.39 3.939c1.226.267 2.404.536 3.535.808v-3.672h26.18v40.572h-26.18v-4.406l-.29.001c-19.201 0-30.56-8.952-31.372-25.783h-.27v-.734H0v6.303h10.313v16.495H20.47C29.332 174.051 57.596 188 97.22 188c46.788 0 74.825-20.053 75.005-56.221-.18-27.931-16.948-47.537-57.697-56.22l-15.145-3.224C81.893 68.665 74.05 63.562 74.5 54.79c.09-8.058 6.852-13.966 22.358-13.966 14.739 0 22.413 5.835 24.439 15.828h-6.265v9.453h66.64v-9.453h-12.06z"
+                fill="url(#paint1_linear)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint1_linear"
+                  x1="-8.15"
+                  y1="78.198"
+                  x2="169.184"
+                  y2="92.492"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop class="stop-1" offset="0%" stop-color="#7CED00" />
+                  <stop class="stop-2" offset="100%" e stop-color="#00EDDF" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <svg
+              class="P"
+              width="107"
+              height="188"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12.188 29.669H0v48.468h12.188V188h51.337v-3.837h4.727v-18.58h-4.727v-20.599h-6.039v-12.925h39.746c28.062-1.384 49.481-13.896 59.851-34.534h15.173v-9.694h-11.307c1.989-6.526 3.034-13.673 3.034-21.37C163.983 26.438 135.822 0 93.81 0H12.188v29.669zm51.337 11.089V92.53h18.097c18.005 0 28.808-10.006 28.808-26.07 0-16.156-10.803-25.703-28.808-25.703H63.525z"
+                fill="url(#paint0_linear)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear"
+                  x1="-7.728"
+                  y1="78.198"
+                  x2="160.524"
+                  y2="91.057"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop class="stop-1" offset="0%" stop-color="#7CED00" />
+                  <stop class="stop-2" offset="100%" e stop-color="#00EDDF" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </li>
+          <li class="menu__item menu__item--separator"></li>
+          <li class="menu__item">
+            <a class="menu__link adrress" href
+              >129226, Moscow, Sergey Eisenstein 8,<br />Main Building, office
+              377</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main _grid">
+      <div class="projects container__grid--1-3">
+        <picture class="projects__item"
+          ><a href="projects-single.html"
+            ><img
+              class="catalog__item--image"
+              data-flickity-lazyload="./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60.jpg"
+              alt="Rectangle-60"
+              srcset="
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@2x.jpg 2x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@3x.jpg 3x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@4x.jpg 4x
+              "
+            />
+            <span class="title">Rectangle-60</span></a
+          ></picture
+        ><picture class="projects__item"
+          ><a href="projects-single.html"
+            ><img
+              class="catalog__item--image"
+              data-flickity-lazyload="./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60.jpg"
+              alt="Rectangle-60"
+              srcset="
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@2x.jpg 2x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@3x.jpg 3x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@4x.jpg 4x
+              "
+            />
+            <span class="title">Rectangle-60</span></a
+          ></picture
+        ><picture class="projects__item"
+          ><a href="projects-single.html"
+            ><img
+              class="catalog__item--image"
+              data-flickity-lazyload="./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60.jpg"
+              alt="Rectangle-60"
+              srcset="
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@2x.jpg 2x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@3x.jpg 3x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@4x.jpg 4x
+              "
+            />
+            <span class="title">Rectangle-60</span></a
+          ></picture
+        ><picture class="projects__item"
+          ><a href="projects-single.html"
+            ><img
+              class="catalog__item--image"
+              data-flickity-lazyload="./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60.jpg"
+              alt="Rectangle-60"
+              srcset="
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@2x.jpg 2x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@3x.jpg 3x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@4x.jpg 4x
+              "
+            />
+            <span class="title">Rectangle-60</span></a
+          ></picture
+        ><picture class="projects__item"
+          ><a href="projects-single.html"
+            ><img
+              class="catalog__item--image"
+              data-flickity-lazyload="./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60.jpg"
+              alt="Rectangle-60"
+              srcset="
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@2x.jpg 2x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@3x.jpg 3x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@4x.jpg 4x
+              "
+            />
+            <span class="title">Rectangle-60</span></a
+          ></picture
+        ><picture class="projects__item"
+          ><a href="projects-single.html"
+            ><img
+              class="catalog__item--image"
+              data-flickity-lazyload="./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60.jpg"
+              alt="Rectangle-60"
+              srcset="
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@2x.jpg 2x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@3x.jpg 3x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@4x.jpg 4x
+              "
+            />
+            <span class="title">Rectangle-60</span></a
+          ></picture
+        ><picture class="projects__item"
+          ><a href="projects-single.html"
+            ><img
+              class="catalog__item--image"
+              data-flickity-lazyload="./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60.jpg"
+              alt="Rectangle-60"
+              srcset="
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@2x.jpg 2x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@3x.jpg 3x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@4x.jpg 4x
+              "
+            />
+            <span class="title">Rectangle-60</span></a
+          ></picture
+        ><picture class="projects__item"
+          ><a href="projects-single.html"
+            ><img
+              class="catalog__item--image"
+              data-flickity-lazyload="./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60.jpg"
+              alt="Rectangle-60"
+              srcset="
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@2x.jpg 2x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@3x.jpg 3x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@4x.jpg 4x
+              "
+            />
+            <span class="title">Rectangle-60</span></a
+          ></picture
+        ><picture class="projects__item"
+          ><a href="projects-single.html"
+            ><img
+              class="catalog__item--image"
+              data-flickity-lazyload="./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60.jpg"
+              alt="Rectangle-60"
+              srcset="
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@2x.jpg 2x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@3x.jpg 3x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@4x.jpg 4x
+              "
+            />
+            <span class="title">Rectangle-60</span></a
+          ></picture
+        ><picture class="projects__item"
+          ><a href="projects-single.html"
+            ><img
+              class="catalog__item--image"
+              data-flickity-lazyload="./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60.jpg"
+              alt="Rectangle-60"
+              srcset="
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@2x.jpg 2x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@3x.jpg 3x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@4x.jpg 4x
+              "
+            />
+            <span class="title">Rectangle-60</span></a
+          ></picture
+        ><picture class="projects__item"
+          ><a href="projects-single.html"
+            ><img
+              class="catalog__item--image"
+              data-flickity-lazyload="./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60.jpg"
+              alt="Rectangle-60"
+              srcset="
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@2x.jpg 2x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@3x.jpg 3x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@4x.jpg 4x
+              "
+            />
+            <span class="title">Rectangle-60</span></a
+          ></picture
+        ><picture class="projects__item"
+          ><a href="projects-single.html"
+            ><img
+              class="catalog__item--image"
+              data-flickity-lazyload="./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60.jpg"
+              alt="Rectangle-60"
+              srcset="
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@2x.jpg 2x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@3x.jpg 3x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@4x.jpg 4x
+              "
+            />
+            <span class="title">Rectangle-60</span></a
+          ></picture
+        ><picture class="projects__item"
+          ><a href="projects-single.html"
+            ><img
+              class="catalog__item--image"
+              data-flickity-lazyload="./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60.jpg"
+              alt="Rectangle-60"
+              srcset="
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@2x.jpg 2x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@3x.jpg 3x,
+                ./images/projects/3D-mapping-show-New-Year-is-trip/Rectangle-60@4x.jpg 4x
+              "
+            />
+            <span class="title">Rectangle-60</span></a
+          ></picture
+        >
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

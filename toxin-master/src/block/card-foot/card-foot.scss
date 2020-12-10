@@ -1,0 +1,14 @@
+@import './card-foot__text.scss';
+
+.card-foot {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.card-foot__btn {
+    width: 99px;
+}

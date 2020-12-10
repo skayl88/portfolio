@@ -1,0 +1,7 @@
+mixin range-slider(title, text)
+    .range-slider
+        .range-slider__header
+            label(for="amount").range-slider__title= title
+            input(type="text" id="amount").range-slider__value
+        #slider-range
+        span.range-slider__text= text

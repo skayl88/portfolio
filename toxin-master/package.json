@@ -1,0 +1,37 @@
+{
+  "name": "name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/pug/landing-page.pug --open",
+    "start-hf": "parcel src/pug/headers-footers-page.pug --open",
+    "start-cards": "parcel src/pug/cards-page.pug --open",
+    "start-forms": "parcel src/pug/form-elems-page.pug --open",
+    "start-colors": "parcel src/pug/colors-type-page.pug --open",
+    "start-search": "parcel src/pug/search-room-page.pug --open",
+    "start-rd": "parcel src/pug/room-detail-page.pug --open",
+    "start-reg": "parcel src/pug/reg-page.pug --open",
+    "start-sign": "parcel src/pug/sign-in-page.pug --open",
+    "start-ui": "parcel src/pug/index.pug --open",
+    "build": "parcel build src/pug/headers-footers-page.pug src/pug/cards-page.pug src/pug/form-elems-page.pug src/pug/colors-type-page.pug src/pug/sign-in-page.pug src/pug/reg-page.pug src/pug/index.pug src/pug/room-detail-page.pug src/pug/search-room-page.pug src/pug/landing-page.pug  -d docs --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "parcel-bundler": "^1.12.3",
+    "pug": "^2.0.3",
+    "sass": "^1.18.0"
+  },
+  "dependencies": {
+    "air-datepicker": "^2.2.3",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

@@ -1,0 +1,24 @@
+mixin card-reg
+    .card-reg
+        .card-reg__title
+            +card-title('Регистрация аккаунта')
+        .card-reg__input-name
+            +form('card-reg-name', 'Имя')
+        .card-reg__input-surname
+            +form('card-reg-surname', 'Фамилия')
+        .card-reg__radio-btn
+            +radio-btn('card-reg-radio-btn-male', 'card-reg-radio-btn-female')
+        .card-reg__birthday
+            +form-date('card-reg-birthday', 'дата рожденья')
+        .card-reg__login-details
+            .card-reg__login
+                +form('card-reg-login', 'Email', 'данные для входа в сервис')
+            .card-reg__password
+                +form('card-reg-password', 'Пароль')
+        .card-reg__toggle
+            +toggle('card-reg-toggle')
+        .card-reg__btn-to-pay
+            +button('перейти к оплате', 1, 'https://pay.google.com').button.button--forward
+        .card-reg__foot
+            +card-foot('Уже есть аккаунт на Toxin', 'Войти', './sign-in-page')(style='width: 99px')
+        

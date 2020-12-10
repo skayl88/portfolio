@@ -1,0 +1,4 @@
+mixin form(id, placeholder, title)
+    form.form(action="/")
+        label(for=id).form__title= title
+        input(type="text", name="" placeholder=placeholder, id=id).form__field

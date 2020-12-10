@@ -1,0 +1,13 @@
+.dropdown__select-button {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border: 1px solid $dark-shade--25;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $dark-shade--50;
+    cursor: pointer;
+    user-select: none;
+}

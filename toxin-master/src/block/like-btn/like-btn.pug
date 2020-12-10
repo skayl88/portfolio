@@ -1,0 +1,8 @@
+mixin like-btn(id)
+    .like-btn
+        form(action="/")
+            input(type="checkbox", name=id id=id value="like").like-btn__input
+            label(for=id).like-btn__wrap
+                i.material-icons.like-btn__icon favorite_border
+                i.material-icons.like-btn__icon--liked favorite
+                span.like-btn__count 12

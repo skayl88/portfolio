@@ -1,0 +1,17 @@
+.form-date-dropdown {
+    width: 100%;
+    background: url(../block/form-date-dropdown/expand_more.png) no-repeat 90% 50%;
+    cursor: pointer;
+    margin-top: 5px;
+    font-family: $montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: $dark-shade--75;
+}
+
+
+
+@import './form-date-dropdown__container.scss';
+@import './form-date-dropdown__right.scss';

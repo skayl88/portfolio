@@ -1,0 +1,22 @@
+@import './import.scss';
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: #E5E5E5;;
+    max-width: 1440px;
+    min-width: 320px;
+    width: 100%;
+}
+.ui-kit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.left, .center, .right {
+        min-width: 380px;
+        max-width: 33%;
+}
+ 
+

@@ -1,0 +1,7 @@
+mixin radio-btn(id_left, id_right)
+    .radio-btn
+        form(action="/")
+            input(type="radio", name="sex", value="male" id=id_left).radio-btn__input
+            label(for=id_left).radio-btn__text Мужчина
+            input(type="radio", name="sex", value="female" id=id_right).radio-btn__input
+            label(for=id_right).radio-btn__text Женщина

@@ -1,0 +1,49 @@
+.rate-btn__star {
+    font-size: 24px;
+    color: $purple;
+    color: $purple;
+    line-height: 20px;
+    font-size: 28px;
+    width: 24px;
+    &:before {
+        content: '\2606';
+    }
+    &:after {
+        content: '\2605';
+        display: none;
+    }
+}
+.rate-btn__star:nth-child(1):hover {
+    ~.rate-btn__star:before  {
+        display: block;
+    }
+    ~.rate-btn__star:after  {
+        display: none;
+    }
+}
+.rate-btn__star:nth-child(2):hover {
+    ~.rate-btn__star:before  {
+        display: block;
+    }
+    ~.rate-btn__star:after  {
+        display: none;
+    }
+}
+.rate-btn__star:nth-child(3):hover {
+    ~.rate-btn__star:before  {
+        display: block;
+    }
+    ~.rate-btn__star:after  {
+        display: none;
+    }
+}
+.rate-btn__star:nth-child(4):hover {
+    ~.rate-btn__star:before  {
+        display: block;
+    }
+    ~.rate-btn__star:after  {
+        display: none;
+    }
+}
+
+@import './--full/rate-btn__star--full.scss';

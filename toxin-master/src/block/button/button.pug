@@ -1,0 +1,10 @@
+mixin button(name, forward, href)
+    if forward
+        form(action=href)
+            button(class!=attributes.class)= name
+                .button__arrow
+                    i.material-icons arrow_forward
+    else
+        form(action=href)
+            button(class!=attributes.class)
+                span.button__text= name

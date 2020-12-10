@@ -1,0 +1,12 @@
+.reg {
+    margin-top: 20px;
+}
+
+.reg__card {
+    background: url('../block/reg/img/image.png') no-repeat;
+    background-position: 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 26px;
+}

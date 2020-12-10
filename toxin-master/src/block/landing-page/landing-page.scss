@@ -1,0 +1,33 @@
+.landing-page__body {
+    background: url('../block/landing-page/img/img1.png') no-repeat 0 100%;
+    background-size: cover;
+    width: 100%;
+    height: 830px;
+    position: relative;
+    @media screen and (max-width: 1439px) {
+        height: 90vh;
+        min-height: 550px;
+    }
+}
+
+.landing-page__card {
+    margin-left: 9.723%;
+    padding-top: 70px;
+    display: flex;
+    @media screen and (max-width: 500px) {
+        margin-left: 10px;
+    }
+}
+
+.landing-page__text{
+    display: inline-block;
+    width: 297px;
+    @include text-body;
+    text-align: right;
+    position: absolute;
+    bottom: 21px;
+    right: 134px;
+    @media screen and (max-width: 720px) {
+        right: 20px;
+    }
+}

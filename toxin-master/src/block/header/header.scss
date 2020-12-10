@@ -1,0 +1,22 @@
+@import './header__menu.scss';
+@import './header__btns.scss';
+@import './header__user-name.scss';
+@import './header__logo.scss';
+
+.header {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 140px;
+    @media screen and (max-width: 1120px) {
+        padding: 0 40px;
+    }
+    @media screen and (max-width: 380px) {
+        padding: 0 5px;
+    }
+}
