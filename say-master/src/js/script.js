@@ -26,7 +26,7 @@ $(document).ready(function () {
     function (slick, currentSlide,) {
       document.querySelector('line')
       let line = document.querySelector('.line').style;
-    line.width =`${(currentSlide.currentSlide+2)/6*100}%`
+    line.width =`${(currentSlide.currentSlide+1)/6*100}%`
       console.log(currentSlide.currentSlide);
     });
 });

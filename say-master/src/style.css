@@ -361,11 +361,16 @@ button {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
   .title {
+    max-width: 320px;
     margin-bottom: 40px;
     font-size: 30px;
     line-height: 40px;
+  }
+  .line2 {
+    max-width: 250px;
+    height: 1px;
   }
   .title._name {
     font-size: 25px;
@@ -402,6 +407,10 @@ button {
   .song:hover::before,
   .song:hover::after {
     background-size: 75%;
+  }
+  .slick-list {
+    width: 95%;
+    position: relative;
   }
 }
 /*# sourceMappingURL=style.css.map */
